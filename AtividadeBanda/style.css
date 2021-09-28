@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+/*parte universal*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b2029;
+    color: #DCDCDC;
+    font-weight: 500;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+
+div.corpo {
+    margin-left: 200px;
+    margin-right: 350px;
+}
+
+div#navegacao {
+    background-color: #38319b;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img#logo{
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 300px;
+}
+
+a#discografia {
+    margin-left: 200px;
+    margin-right: 50px;
+
+}
+
+a#historia  {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a#integrantes {
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+h1 {
+    font-family:'Poppins', sans-serif;
+    color: #8880FE;
+}
+
+h2 {
+    color: #5c50fe;
+}
+
+img {
+    float: left;
+}
+
+/*pagina inicial*/
+#banda01{
+    float: left;
+    margin-right: 30px;
+    width: 400px;
+}
+
+/* Discografia*/
+hr#linha2 {
+    width: 300px;
+}
+
+#lista1 {
+    margin-left: 300px;
+}
+
+/*historia*/
+img#banda2 {
+    width: 700px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+/*integrantes*/
+
+img.integrantes {
+    width: 300px;
+}
+
+div.texto {
+    margin-left: 320px;
+}
+
+/*galeria*/
+div#imagens{
+    margin-left: 200px;
+    margin-right: 350px;
+}
