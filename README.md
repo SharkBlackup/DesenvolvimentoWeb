@@ -1,2 +1,6 @@
-# DesenvolvimentoWeb
-Esse repositório vai armazenar todas as minhas atividades que fiz pela Etec de Maua na matéria de Progrmação Web
+## 👨🏻‍💻Atividades Programação Web
+
+Olá esse meu repositório vai armazenar TODAS as minhas atividades feitas para o curso de Programação Web
+A proposta é mostrar minha evolução com o Front-End desde quando não sabia sobre NADA
+
+Ps: meus projetos pessoais estão armazenados nos meus outros repositórios  
