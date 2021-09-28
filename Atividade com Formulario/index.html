@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/jscript"></script>
+    <title>Criar Conta</title>
+</head>
+<body>
+    <main class="container">
+        <form name="formCriarConta" onSubmit="return validacao();">
+            <fieldset>
+                <legend><h1>Criar Conta</h1></legend>
+            <div class="dados">
+                <b>Dados Pessoais</b> <br>
+                <input type="text" name="username" id="username" placeholder="Insira Seu Nome de Usuário" required>
+                <hr color="#8880FE"> 
+
+                <input type="password" name="senha" id="senha" placeholder="Insira Sua Senha" required> <!--12345678-->
+                <hr color="#8880FE"> 
+
+                <input type="password" name="v" id="confsenha" placeholder="Confirme Sua Senha" required>
+                <hr color="#8880FE"> 
+
+                <input type="email" name="email" id="email" placeholder="Insira Seu Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <hr color="#8880FE" > <!--teste@gmail.com-->
+
+                <input type="tel" name="telefone" placeholder="Insira Seu Número de Telefone (99) 99999-9999"  data-mask="(00) 00000-0000"  pattern="(\[1-9]{2}\)\s([0-9]{1})?([0-9]{4})([0-9]{4})" required > <!--(99) 99999-9999-->
+                <hr color="#8880FE" > 
+            </div>
+
+            <div class="info">
+                <label for="dtNasc">Insira Sua Data de Nascimento</label> <br>
+                <input type="date" name="dtNasc" max="2021-06-28" placeholder="Insira Sua Data de Nascimento" required> <br>
+
+                Para Qual Finalidade Será Usada a Conta?
+                <p>
+                    <input type="radio" name="finalidade" id="Estudante" required >
+                    <label for="Estudante">Estudante </label>     
+    
+                    <input type="radio" name="finalidade" id="Professor" required>
+                    <label for="Professor">Professor</label>
+    
+                    <input type="radio" name="finalidade" id="Profissional" required>
+                    <label for="Profissional">Profissional</label>
+    
+                    <input type="radio" name="finalidade" id="Pessoal" required >
+                    <label for="Pessoal">Pessoal</label>
+                </p> 
+
+                Qual Estado Você Mora? <br>
+            <select id="estado" name="estado" required>
+                <option value="">Selecione Aqui</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select> 
+
+            <br> <br>
+
+                <b>Algumas Informações</b> <br>
+                <span>*as informações a seguir poderão ser mudadas futuramente</span> <br> <br>
+
+                <label for="arquivo">Insire Sua Foto de Perfil</label> <br>
+                <span>*aceitamos apenas imagens em formatos .png e .jpeg</span> <br>
+                <input type="file" accept="image/png,image/jpeg" name="arquivo"/>
+                <br>
+
+                <label for="cor">Indique a cor do Seu Nome</label> <br>
+                <span>*nem todas as cores ficam visíveis*</span> <br>
+                <input type="color" name="cor">
+                <br>
+
+            <label for="contrato">Aceito os Termos do Contrato</label>
+            <input id="contrato" name="contrato" type="checkbox" value="sim" required>
+            <br>
+
+            <label for="receber">Desejo Receber Informações no Meu Email</label>
+            <input id="receber" name="receber" type="checkbox" value="sim"> <br>
+
+            <input type="submit" value="Criar Conta" >
+            <br> <br>
+
+            <div class="autor">
+                Powered by Victor Hugo 
+            </div>
+        </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
