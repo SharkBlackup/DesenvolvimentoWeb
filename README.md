@@ -3,4 +3,4 @@
 Olá esse meu repositório vai armazenar TODAS as minhas atividades feitas para o curso de Programação Web
 A proposta é mostrar minha evolução com o Front-End desde quando não sabia sobre NADA
 
-Ps: meus projetos pessoais estão armazenados nos meus outros repositórios  
+07/2022
